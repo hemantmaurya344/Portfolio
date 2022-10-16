@@ -1,0 +1,1 @@
+console.log(nums.filter(num => num%2));
