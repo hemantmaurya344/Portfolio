@@ -1,9 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Caveat+Brush:wght@400&display=swap');
 
-@keyframes nav-border {
-    0%{border: none;}
-    100%{border-left: 0.1em solid blue;}
-}
+/* add animation to h1 and h1 span */
+/* nav bar animation hover */
 body{
     font-family: 'Montserrat', sans-serif;
     margin: 0;
@@ -13,11 +11,12 @@ body{
 nav a {
     text-decoration: none;
     color: black;
+    cursor: default;
 }
 .navbar{
     display: flex;
     align-items: baseline;
-    border-bottom: 0.112em solid rgba(238, 231, 231, 0.932);
+    border-bottom: 0.12em solid rgba(238, 231, 231, 0.932);
     background-color: white;
     width: 84.5em;
     position: fixed;
@@ -53,7 +52,7 @@ ul{
 }
 
 .home{
-    background-color: rgba(176, 120, 228, 0.726);
+    background-color: rgba(99, 97, 212, 0.726);
     /* padding: 15em; */
     color: rgba(0, 0, 0, 0.925);
 }
@@ -64,7 +63,8 @@ ul{
     font-size: 3em;
     text-align: center;
     font-family: 'Caveat Brush', cursive;
-    
+    /* color: rgba(87, 38, 52, 0.932); */
+    cursor: default;
 }
 .home span{
     display: block;
@@ -75,6 +75,19 @@ ul{
 .home i{
     margin: 3.5em 0 3em 20.5em;
 }
+.about-inner{
+    display: flex;
+}
 .about{
     text-align: center;
+    background-color: rgba(173, 216, 230, 0.938);
+}
+.about h2{
+    margin: 0;
+    padding-top: 3em;
+    padding-bottom: 2em;
+}
+.about .about-header{
+    text-align: center;
+    
 }

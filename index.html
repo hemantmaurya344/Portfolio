@@ -12,31 +12,35 @@
 <body>
     <nav>
         <div class="navbar">
-            <a href="#Home" class="title">Hemant Maurya</a>
+            <a href="#Home" onclick="toHome()" class="title">Hemant Maurya</a>
             <ul>
-                <li class="home-btn"><a href="#Home">Home</a></li>
-                <li><a href="#About">About</a></li>
-                <li><a href="#Projects">Projects</a></li>
-                <li><a href="#Contact">Contact</a></li>
-            </ul>
+                <li onclick="toHome()"><a href="#Home">Home</a></li>
+                <li onclick="toabout()"><a href="#About">About</a></li>
+                <li onclick="toproject()"><a href="#Projects">Projects</a></li>
+                <li onclick="tocontact()"><a href="#Contact">Contact</a></li>
+            </ul>     
         </div>
     </nav>    
     <!-- Home page -->
-    <section class="home">
+    <section class="home" id="home-page">
         <div>
-            <h1>Hii! <span>I'am Hemant</span></h1>
+            <h1>Hii ! <span>I'am Hemant</span></h1>
             <i class="fa-regular fa-circle-down fa-2xl"></i>
         </div>
     </section>
 
     <!--About page-->
     <section class="about" id="about-page">
-        <h2>About me</h2>  
-        <h3>I'am Hemant Maurya</h3>  
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam dolorem optio eveniet tempora ratione quis iste nisi assumenda veniam eos fuga, aliquam necessitatibus distinctio voluptates saepe dolores fugiat sed molestias porro cum quod aut, quasi aperiam iure? Aliquam quisquam quis quo. Reiciendis vitae assumenda aliquam, molestiae voluptas tempore vel consectetur.</p>
+        <h2>About me</h2> 
+        <h3>I'am Hemant Maurya</h3>
         <h3>Skills</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et placeat in maiores deserunt dignissimos expedita sint reprehenderit! Excepturi, sit totam!</p>
-    </section>
+        <div class="about-inner">              
+            <!-- aboutme -->
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam dolorem optio eveniet tempora ratione quis iste nisi assumenda veniam eos fuga, aliquam necessitatibus distinctio voluptates saepe dolores fugiat sed molestias porro cum quod aut, quasi aperiam iure? Aliquam quisquam quis quo. Reiciendis vitae assumenda aliquam, molestiae voluptas tempore vel consectetur.</p>
+            <!-- skills-discription -->
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et placeat in maiores deserunt dignissimos expedita sint reprehenderit! Excepturi, sit totam!</p>
+        </div> 
+        </section>
 
     <!--Project Page-->
     <section class="project" id="project-page">
@@ -59,7 +63,7 @@
     </section>
 
     <!-- contact page -->   
-    <section class="Contact">
+    <section class="Contact" id="contact-page">
         <h3>Get in touch with me : <a href="">hemantmaurya344@gmail.com</a></h3>
         <h5>Or Connect with me here: </h5>
         <i class="fa-brands fa-linkedin"></i>
@@ -73,7 +77,7 @@
     
     <!-- footer -->
     <footer>
-        <h2>Design and Build By</h2>
+        <h2>Design and Developed By</h2>
         <h3>Hemant Maurya</h3>
     </footer>
 </body>
