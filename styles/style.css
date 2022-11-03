@@ -6,6 +6,7 @@ body{
     font-family: 'Montserrat', sans-serif;
     margin: 0;
     padding: 0;
+    text-align: center;
 }
 
 nav a {
@@ -34,16 +35,7 @@ li{
     font-size: 1.2em;
     font-weight: 500;
 }
-/* li:hover::before{
-    content: '';
-    border:1em;
-    background-image: conic-gradient(transparent,blue);
-} */
-/* .home-btn:before{
-    content: '';
-    border:1em;
-    background-image: conic-gradient(transparent,blue);
-} */
+
 ul{
     display: flex;
     flex-direction: row;
@@ -55,6 +47,8 @@ ul{
     background-color: rgba(99, 97, 212, 0.726);
     /* padding: 15em; */
     color: rgba(0, 0, 0, 0.925);
+    /* background-image: url(/resources/home-page.svg);
+    background-repeat: no-repeat;    */
 }
 .home h1{
     margin: 0;
@@ -73,21 +67,65 @@ ul{
     font-size: 2em;
 }
 .home i{
-    margin: 3.5em 0 3em 20.5em;
+    margin: 3.5em 0 3em -0.5em;
 }
-.about-inner{
-    display: flex;
-}
+
 .about{
     text-align: center;
-    background-color: rgba(173, 216, 230, 0.938);
+    background-color: rgb(230, 173, 181);
+    padding: 0 2em 5em 2em;
+    
 }
 .about h2{
     margin: 0;
-    padding-top: 3em;
+    padding-top: 4em;
     padding-bottom: 2em;
 }
-.about .about-header{
+.about-grid-outer{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 0.2em;
+}
+
+.about-inner{
+    background-color: rgba(40, 161, 131, 0.644);
+    padding: 1em;
+    border-radius: 1em;
+    margin-bottom: 10em;
+}
+.skills-inner{
+    background-color: rgb(40, 161, 131, 0.644);
+    padding: 1em;
+    border-radius: 1em;
+    margin-top: 17em;
+}
+.project{
+    background-color: burlywood;
+}
+.project h2{
+    margin: 0;
     text-align: center;
-    
+    padding-top: 3em;
+}
+
+
+
+
+
+
+.contact{
+    background-color: rgba(85, 124, 124, 0.952);
+}
+.contact h2{
+    margin: 0;
+    padding-bottom: 0;
+}
+
+
+
+.footer{
+    background-color: rgb(255, 255, 255);
+}
+.footer h3{
+    margin: 0;
 }

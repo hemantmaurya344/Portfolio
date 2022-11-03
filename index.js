@@ -1,4 +1,4 @@
-
+// for funtioning the navbar buttons
 function toHome(e){
     const homeBtn = document.getElementById('home-page').scrollIntoView(true);    
 }
