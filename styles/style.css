@@ -34,6 +34,7 @@ li{
     margin-left: 0.2em;
     font-size: 1.2em;
     font-weight: 500;
+    border-radius: 0.5em solid black;
 }
 
 ul{
@@ -72,7 +73,7 @@ ul{
 
 .about{
     text-align: center;
-    background-color: rgb(230, 173, 181);
+    background-color: #83d39d;
     padding: 0 2em 5em 2em;
     
 }
@@ -88,13 +89,13 @@ ul{
 }
 
 .about-inner{
-    background-color: rgba(40, 161, 131, 0.644);
+    background-color: #3AADAB;
     padding: 1em;
     border-radius: 1em;
     margin-bottom: 10em;
 }
 .skills-inner{
-    background-color: rgb(40, 161, 131, 0.644);
+    background-color: #3AADAB;
     padding: 1em;
     border-radius: 1em;
     margin-top: 17em;
