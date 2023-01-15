@@ -1,13 +1,19 @@
 // for funtioning the navbar buttons
 function toHome(e){
-    const homeBtn = document.getElementById('home-page').scrollIntoView(true);    
+    const homeBtn = document.querySelector('body').scrollIntoView(true);    
 }
-function toabout(e){
-    const aboutBtn  = document.getElementById('about-page').scrollIntoView(true);
+
+
+
+function linkedin(e){
+    window.location.href="https://www.linkedin.com/in/hemantmaurya344/";
 }
-function toproject(e){
-    const projectBtn = document.getElementById('project-page').scrollIntoView(true); 
+function twitter(e){
+    window.location.href="https://twitter.com/mauryahemant19";
 }
-function tocontact(e){
-    const contactBtn = document.getElementById('contact-page').scrollIntoView(true);     
+function github(e){
+    window.location.href="https://github.com/hemantmaurya344";
+}
+function instagram(e){
+    window.location.href="https://www.instagram.com/iamhemantmaurya/";
 }
