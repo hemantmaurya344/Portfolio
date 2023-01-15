@@ -51,7 +51,7 @@ nav a {
     font-size: 1.8em;    
     font-weight: var(--font-semibold);
 }
-.drawable-objects{
+.drawable-object{
     position: absolute;
     top: 5em;
     left: -8em;
@@ -78,6 +78,14 @@ nav a {
 .home span{
     display: block;
 }
+.drawable-object-2{
+    position: absolute;
+    top: 11em;
+    left: 12.5em;
+    opacity: 50%;
+}
+
+
 
 
 hr{
