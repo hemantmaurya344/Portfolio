@@ -34,13 +34,7 @@ nav a {
     font-weight: var(--font-semibold);
     font-size: 1.6em;
 }
-/* .profile-box{
-    /* background-color: rgb(83, 82, 82); */
-    
-    border-color: rgb(83, 82, 82);
-    border: 2em 3em;
-    /* display: block; */
-} */
+
 .social-links{
     display: grid;
     gap: 1em ;
