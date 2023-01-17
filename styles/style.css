@@ -38,10 +38,9 @@ nav a {
 .social-links{
     display: grid;
     gap: 1em ;
-    position: relative;
-    top: 5em;
-    left: 4em;
-
+    position: absolute;
+    /* top: 5em; */
+    margin: 5em 0 0 21em;
 }
 
 /* home-section start here*/
@@ -53,7 +52,7 @@ nav a {
 }
 .home h1{
     font-size: 2.3rem;
-    margin-top: 4em;
+    margin-top: 7em;
     cursor: default;
 }
 .home span{
