@@ -8,7 +8,7 @@
     <link rel="shortcut icon" href="/resources/images/favicon.png" type="png/svg">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="styles/style.css">
-    <script src="index.js" defer></script>
+    
 </head>
 <body>
     <nav>
@@ -21,7 +21,9 @@
                 <i class="fa-brands fa-instagram fa-2x" onclick="instagram()"></i>
             </div>
         </div>
-       
+        <div class="image-box">
+            <img src="" alt="">
+        </div>
     </nav>    
     
     <!-- Home page -->
@@ -35,58 +37,96 @@
         <div>
             <h1>Nice to meet you! <br>I'm <span>Hemant Maurya</span>.</h1>
             <p>Based in the New Delhi, India | I'm a student of Computer Science and passionate about building and learning new things | Btw I enjoy the process of Building them.</p>
-
         </div>
     </section>
     <hr style="margin: 1em;">
 
-    <!--skill page-->
-    <!-- <section class="about" id="about-page">
-        <h2>About me</h2> 
-        <div class="about-grid-outer">
-            <div class="about-inner"> 
-                <h3>I'am Hemant Maurya</h3>             
-                
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam dolorem optio eveniet tempora ratione quis iste nisi assumenda veniam eos fuga, aliquam necessitatibus distinctio voluptates saepe dolores fugiat sed molestias porro cum quod aut, quasi aperiam iure? Aliquam quisquam quis quo. Reiciendis vitae assumenda aliquam, molestiae voluptas tempore vel consectetur.</p>
-            </div>
-            <div class="skills-inner"> 
-                
-                <h3>Skills</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et placeat in maiores deserunt dignissimos expedita sint reprehenderit! Excepturi, sit totam!</p>          
-            </div> 
-        </div>        
-    </section> -->
+    <div class="skills-section">
+        <h1>Skills</h1>
+        <h2>Java</h2>
+        <h2>C</h2>
+        <h2>JavaScript</h2>
+        <h2>kotlin</h2>
+        <h2>HTML</h2>
+        <h2>CSS</h2>
+        <h2>JQuery</h2>
+        
+    </div>
+    <hr style="margin: 1em;">
 
     <!--Project Page-->
-    <section class="project" id="project-page">
+    <section class="project-section" id="project-page">
         <h2>Projects</h2>
-        <div class="project1">
-            <img src="" alt="">
+        <div class="project-box">
+            <div class="project">
+                <a href="">
+                    <img src="/resources/images/android-app-development-course.png" alt="">
+                </a>
+            </div>
+            <h3>Testing Subject sdasd asdasd</h3>
+            <a href=""><span>View Project</span></a>
+            <a href=""><span>View Code</span></a>
         </div>
-        <div class="project2">
-            <img src="" alt="">
+        <div class="project-box">
+            <div class="project">
+                <a href="www.google.com">
+                    <img src="/resources/images/Project_1.jpg" alt="">
+                </a>
+            </div>
+            <h3>Payment Page Landing Form</h3>
+            <a href=""><span>View Project</span></a>
+            <a href=""><span>View Code</span></a>
         </div>
-        <div class="project3">
-            <img src="" alt="">
+        <!-- <div class="project-box">
+            <div class="project">
+                <a href="">
+                    <img src="" alt="">
+                </a>
+            </div>
+            <h3></h3>
+            <a href=""><span></span></a>
+            <a href=""><span></span></a>
         </div>
-        <div class="project4">
-            <img src="" alt="">
+        <div class="project-box">
+            <div class="project">
+                <a href="">
+                    <img src="" alt="">
+                </a>
+            </div>
+            <h3></h3>
+            <a href=""><span></span></a>
+            <a href=""><span></span></a>
         </div>
-        <div class="project5">
-            <img src="" alt="">
-        </div>
+        <div class="project-box">
+            <div class="project">
+                <a href="">
+                    <img src="" alt="">
+                </a>
+            </div>
+            <h3></h3>
+            <a href=""><span></span></a>
+            <a href=""><span></span></a>
+        </div> -->
     </section>
 
     <!-- contact page -->   
     
     <section class="contact" id="contact-page">
         <h1>Contact</h1>
-        <!-- <h3>Get in touch with me : <a href="">hemantmaurya344@gmail.com</a></h3> -->
-        <!-- <h5>Or Connect with me here: </h5> -->
-        <p>You can reach me via these socials.</p>
-
-        <hr style="margin: 1em; ">
-        <h2 class="footer-title">hemantMaurya</h2>
+        <div class="email">
+            <i class="fa-regular fa-envelope fa-1x"></i>
+            <a href="#">hemantmaurya344@gmail.com</a>
+        </div>
+        <div class="address">
+            <i class="fa-solid fa-map-location-dot fa-1x"></i>
+            <a href="https://www.google.com/maps/place/New+Delhi,+Delhi/@28.527582,77.0688972,11z/data=!3m1!4b1!4m5!3m4!1s0x390cfd5b347eb62d:0x52c2b7494e204dce!8m2!3d28.6139391!4d77.2090212">New Delhi, India</a>
+            <p>110062</p>
+        </div>        
+         <hr style="margin: 1em; ">
+         <div>
+            <h2 class="footer-title">hemantMaurya</h2>
+            <p>You can reach me via these socials.</p>
+         </div>        
         <div class="footer-social-links">
             <i class="fa-brands fa-linkedin fa-2x" onclick="linkedin()"></i>
             <i class="fa-brands fa-twitter fa-2x" onclick="twitter()"></i>
@@ -104,5 +144,7 @@
         <h3>Developed By</h3>
         <h3>Hemant Maurya</h3>
     </footer> -->
+
+    <script src="index.js" defer></script>
 </body>
 </html>
