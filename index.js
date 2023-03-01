@@ -3,6 +3,10 @@ function toHome(e){
     const homeBtn = document.querySelector('body').scrollIntoView(true);    
 }
 
+function toContact(e){
+    let contactPage = document.getElementById('contact-page');
+    contactPage.scrollIntoView(true);
+}
 function linkedin(e){
     window.location.href="https://www.linkedin.com/in/hemantmaurya344/";
 }
