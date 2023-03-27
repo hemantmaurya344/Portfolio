@@ -106,10 +106,6 @@ span{
     font-size: 1em;
 }
 
-.project-container{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-}
 .project-section{
     margin: 2em;
 }
@@ -124,10 +120,13 @@ span{
     border-radius: 0.5em;
     height: 14em;
 }
+.project-box{
+    margin-bottom: 2em;
+}
 .project-box > h3{
     display: block;
-    position: relative;
-    left: -1em;
+    margin-left: 1.6em;
+    text-align: left;
     font-size: 1.2em;
 }
 .project-box > a{
@@ -170,6 +169,7 @@ span{
 }
 
 @media screen and (min-width: 600px) {  
+    /* desktop view */
     .social-links{
         z-index: 1;
         display: inline;
@@ -236,6 +236,10 @@ span{
     .project-section{
         margin: 2em;
     }
+    .project-container{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
     .project{
         align-items: center;
         display: flex;
@@ -254,10 +258,8 @@ span{
         height: 14em;
     }
     .project-box > h3{
-        display: block;
-        text-align: left;
-        margin-left: 2em;
         font-size: 1.2em;
+        margin-left: 0.8em;
     }
     .project-box > a{
         display: inline;
