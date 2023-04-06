@@ -114,7 +114,7 @@ span{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin: 1em;
+    margin: 2em;
 }
 .project > a > img{
     border-radius: 0.5em;
@@ -125,15 +125,13 @@ span{
 }
 .project-box > h3{
     display: block;
-    margin-left: 1.6em;
     text-align: left;
     font-size: 1.2em;
 }
 .project-box > a{
     display: inline;
-    position: relative;
-    left: -3.2em;
-    padding: 0.3em;
+    margin-left: -11.5em;
+    padding: 0.1em;
 }
 .contact{
     padding: 2em 0 0.5em 0;
@@ -259,12 +257,13 @@ span{
     }
     .project-box > h3{
         font-size: 1.2em;
-        margin-left: 0.8em;
+        margin-left: -0.5em;
     }
     .project-box > a{
         display: inline;
-        left: -6em;
-        padding: 0.3em;
+        position: relative;
+        left: -2.5em;
+        padding: -0.5em;
     }
     .project-box{
         margin: 0.5em;
