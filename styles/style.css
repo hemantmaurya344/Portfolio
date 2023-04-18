@@ -104,6 +104,7 @@ span{
 }
 .skills-section > h2{
     font-size: 1em;
+    text-transform: uppercase;
 }
 
 .project-section{
